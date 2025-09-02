@@ -50,12 +50,12 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   final AudioPlayer _audioPlayer = AudioPlayer();
 
-  // Lista de sonidos de emergencia (debes agregar los archivos en assets/audio/)
+ // Lista de sonidos de emergencia (debes agregar los archivos en assets/audio/)
   final List<Map<String, String>> emergencySounds = [
-    {'label': 'Alerta General', 'file': 'alerta_general.mp3'},
-    {'label': 'Emergencia Médica', 'file': 'emergencia_medica.mp3'},
-    {'label': 'Incendio', 'file': 'incendio.mp3'},
-    {'label': 'Caída', 'file': 'caida.mp3'},
+    {'label': 'Grito de michael jackson', 'file': 'Descarga Efecto De Sonido De Michael Jackson - Gritos.mp3'},
+    {'label': 'Me dice feo', 'file': 'Ella dice que soy feo.mp3'},
+    {'label': 'Vende guineo', 'file': 'Idioto... Boca e fa.mp3'},
+    {'label': 'Congas', 'file': 'SONIDO DE CONGA.mp3'},
   ];
 
   void _playSound(String fileName) async {

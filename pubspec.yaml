@@ -60,7 +60,8 @@ flutter:
   uses-material-design: true
 
   assets:
-    - assets/audio/ # Asegúrate de crear esta carpeta y agregar los archivos mp3 necesarios
+    - assets/audio/
+    - assets/imagen/# Asegúrate de crear esta carpeta y agregar los archivos mp3 necesarios
 
   # To add assets to your application, add an assets section, like this:
   # assets:
